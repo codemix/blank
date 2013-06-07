@@ -1,0 +1,23 @@
+{
+  "name": "handlebars-gen",
+  "description": "An extendable static code generator for handlebars templates, targetting languages other than JavaScript, e.g. PHP",
+  "version": "0.0.11",
+  "author": {
+    "name": "Charles Pick",
+    "email": "charles.pick@gmail.com>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codemix/handlebarsgen"
+  },
+  "main": "./lib/index",
+  "bin": {
+    "handlebars-gen": "./bin/handlebars-gen"
+  },
+  "dependencies": {
+    "optimist": "*",
+    "mkdirp": "*",
+    "handlebars": "*",
+    "pegjs": "*"
+  }
+}
